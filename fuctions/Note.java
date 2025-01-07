@@ -21,5 +21,10 @@ public class Note implements Serializable{
 		this.timeLine = new JLabel();
 	}
 	
+	public LocalDate returnWhen() {
+		
+		return now;
+	}
+	
 	
 }
